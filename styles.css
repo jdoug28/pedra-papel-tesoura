@@ -1,0 +1,62 @@
+body {
+    margin-top: 3%;
+    font-family: "Press Start 2P", system-ui;
+    text-align: center;
+}
+
+.game {
+    margin-top: 75px;
+}
+
+button {
+    font-family: "Press Start 2P", system-ui;
+    padding: 10px 20px;
+    margin: 12 10px;
+    cursor: pointer;
+}
+
+#submit {
+    margin-top: 2%;
+}
+
+.btnImg {
+    width: 100px;
+    height: 100px;
+}
+
+.playersChoice {
+    margin-top: 2%;
+}
+
+#playerChoice {
+    margin-top: 4%;
+}
+
+.counter {
+    margin-top: 5%;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4%;
+}
+
+/* Teste de responsividade */
+@media (min-height: 1000px) {
+    h1 {
+        margin-top: 15%;
+        font-size: 40px;
+    }
+    .btnImg {
+        width: 75px;
+        height: 75px;
+    }
+    #submit {
+        margin-bottom: 8%;
+    }
+    #result {
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+}
