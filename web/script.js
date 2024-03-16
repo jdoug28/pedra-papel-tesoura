@@ -35,10 +35,10 @@ const buttons = document.querySelectorAll(".choice");
 
 let playerSelection;
 
-let selectSE = new Audio('../media/select.wav');
-let winSE = new Audio('../media/win.wav');
-let lossSE = new Audio('../media/loss.wav');
-let drawSE = new Audio('../media/draw.wav')
+let selectSE = new Audio('./media/select.wav');
+let winSE = new Audio('./media/win.wav');
+let lossSE = new Audio('./media/loss.wav');
+let drawSE = new Audio('./media/draw.wav')
 
 buttons.forEach(button => {
     button.addEventListener("click", function() {
@@ -46,21 +46,21 @@ buttons.forEach(button => {
         selectSE.play();
         if(playerSelection==='pedra')
         {
-            document.getElementById("papelImg").src = "../media/papel.png";
-            document.getElementById("pedraImg").src = "../media/pedraP1.png";
-            document.getElementById("tesouraImg").src = "../media/tesoura.png";
+            document.getElementById("papelImg").src = "./media/papel.png";
+            document.getElementById("pedraImg").src = "./media/pedraP1.png";
+            document.getElementById("tesouraImg").src = "./media/tesoura.png";
         }
         if(playerSelection==='papel')
         {
-            document.getElementById("pedraImg").src = "../media/pedra.png";
-            document.getElementById("papelImg").src = "../media/papelP1.png";
-            document.getElementById("tesouraImg").src = "../media/tesoura.png";
+            document.getElementById("pedraImg").src = "./media/pedra.png";
+            document.getElementById("papelImg").src = "./media/papelP1.png";
+            document.getElementById("tesouraImg").src = "./media/tesoura.png";
         }
         if(playerSelection==='tesoura')
         {
-            document.getElementById("pedraImg").src = "../media/pedra.png";
-            document.getElementById("tesouraImg").src = "../media/tesouraP1.png";
-            document.getElementById("papelImg").src = "../media/papel.png";
+            document.getElementById("pedraImg").src = "./media/pedra.png";
+            document.getElementById("tesouraImg").src = "./media/tesouraP1.png";
+            document.getElementById("papelImg").src = "./media/papel.png";
         }
         
     });
