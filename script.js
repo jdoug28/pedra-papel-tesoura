@@ -36,9 +36,9 @@ const buttons = document.querySelectorAll(".choice");
 let playerSelection;
 
 let selectSE = new Audio('./media/select.wav');
-let winSE = new Audio('./media/win.wav');
-let lossSE = new Audio('./media/loss.wav');
-let drawSE = new Audio('./media/draw.wav')
+let winSE = new Audio('./media/win.WAV');
+let lossSE = new Audio('./media/loss.WAV');
+let drawSE = new Audio('./media/draw.WAV')
 
 buttons.forEach(button => {
     button.addEventListener("click", function() {
