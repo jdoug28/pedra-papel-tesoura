@@ -1,2 +1,1 @@
-Projeto bem simples em 8-bit :) <br>
-Só abrir o main.HTML
+<h3>Projeto de jogo simples com estética 8-bits</h3>
